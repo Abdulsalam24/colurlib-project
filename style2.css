@@ -1,0 +1,435 @@
+/*Tablet screennnn  (585px)*/
+@media screen and (min-width:585px){
+    
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    /*variable*/
+    :root{
+        --primary:#FF9100;
+        --secondary: #5E5E63;
+    }
+    
+    /*reset*/
+    body,p,a{
+        font-size: 22px;
+    }
+    
+    /*base style*/
+    
+    .button,.basicplan-button{
+        font-size: 0.9em;
+        padding: 14px 36px;
+    }
+    
+    .nav-1 .flex .startup{
+        display: unset;
+        width: 100%;
+        padding: 14px 10px;
+        align-items: center;
+        font-weight: lighter;
+        background-color: #222222;
+        height: 100%;
+        margin-left: 10px;
+    }
+
+    .nav-1 .flex .startup a{
+        font-family: 'Open Sans',sans-serif;
+        color: var(--secondary);
+        font-size: 18px;
+    }
+
+
+
+    .nav-1 .flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+
+    nav{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        
+    }
+    
+    
+    .nav-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-1 img{
+        width: 25%;
+    }
+    
+    .star-nav{
+    display: flex;
+    margin-bottom: -6px;
+    padding: 9px 6px;
+    }
+
+    .star-nav h2{
+    margin-left: -2em;
+    }
+    
+    .exit-div{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .exit-div .exit{
+        margin-left: 16px;
+    }
+
+    .exit-div .shop img,.exit-div .exit img{
+        width: 20px;
+    }
+    
+    .nav-2{
+        background-color: white;
+    }
+    
+    
+    
+    .menu-flex{
+        display: flex;
+        justify-content: space-between;
+        background-color: #4C4C4C;
+        padding: 10px 0;
+    }
+    
+    .menu{
+        display: flex;
+        background-color: black;
+        padding: 10px;
+    }
+    
+    .menu-nav h4,.logo-menu{
+        color: white;
+    }
+    
+    
+    .logo-menu div{
+        background-color: white;
+        margin: 4px 8px;
+        width: 20px;
+        padding: 1px 0;
+    }
+    
+    
+    /*HOMEEEE*/
+    
+    #home{
+        padding-top: 180px;
+    }
+    
+    
+    .welcome{
+        padding: 40px 0 100px 40px ;
+        
+    }
+    
+    .welcome-text{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .welcome-text h6{
+        margin-bottom: 0;
+    }
+    
+    .welcome-text h3 ,.welcome-text p,.welcome-text a{
+        margin-top: 20px;
+    }
+    
+    .welcome-text p{
+        margin-top: 20px;
+    }
+    
+    .welcome img{
+        display: none;
+    }
+    
+    
+    
+    
+    /*SERVICEEEE*/
+    #service{
+        font-size: 0.9em;
+        width: 88%;
+        margin: auto;
+        padding: 70px 0;
+    }
+    
+    .service-text p{
+        margin-top: 25px;
+    }
+    
+    .service{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 30px 0;
+    }
+    
+    .service-grid-item{
+        padding: 10px;
+        border: 0.9px solid #E3E3E3;
+    }
+    
+    .service-grid-item img{
+        margin-bottom: 0;
+    }
+    
+    .service-grid-item h3{
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    
+    .service-grid-item p{
+        font-size: 0.9em;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .grid-button {
+        margin-top: 25px;
+    }
+    
+    
+    /*philosopyyyy*/
+    
+    .ourp{
+        width:100%;
+    }
+    
+    .ourp img{
+        width: 100%;
+    }
+    
+    .ourp-text{
+        padding: 50px 20px;
+    }
+    
+    .ourp-text p{
+        font-size: 0.9em;
+       
+    }
+    
+    
+    /*Affordableeee*/
+    .affordable-text{
+        text-align: center;
+        padding: 70px 40px 350px 40px;
+        margin-bottom:1430px;
+    }
+    
+    .affordable-text h4{
+
+        font-size: 1.3em;
+    }
+    
+    .affordable-text p{
+        font-size: 1em;
+        margin-top: 25px;
+    }
+    
+    
+    
+    hr{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .basicplan-absolute{
+        left: 35px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        
+    }
+    .basicplan{
+        
+        width: 90%;
+        margin: auto;
+    
+    }
+    
+    .basicplan-text{
+        font-size: 0.8em;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .basicplan-text h4{
+        padding: 5px 0;
+        border: 2px solid gray;
+        border-radius: 15px;
+        width: 40%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .basicplan-text h2,.basicplan-text p{
+        font-size: 1em;
+        margin-top: 30px;
+    }
+    
+    .basicplan-text h5{
+        margin-top: 15px;
+    }
+    
+    .basicplan-text a{
+        margin-top: 30px;
+    }
+    
+    /*Featttttt*/
+    
+    
+    .feat{
+        font-size: 1em;
+    }
+    
+    .a{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .a a{
+        font-size: 0.8em;
+        width: 60%;
+        margin: 0 20px;
+        padding: 8px 0;
+    }
+    
+    .feat-img{
+        margin: 50px 30px;
+        width: 80%;
+    }
+    
+    
+    
+    /*backgroundddd*/
+
+    .background-img{
+        padding: 50px;
+    }
+    
+    
+    .background-img-text{
+        padding: 40px;
+    }
+
+    .background-img-text p{
+        font-size: 0.8em;
+    }
+
+    
+    
+    /*blogggg*/
+    .blog-text h3{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .blog-contain{
+        margin-top: 40px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .blog-contain-text{
+        margin: 20px 0;
+    }
+    
+    .blog-contain-text h3{
+        font-size: 1em;
+        text-decoration: underline;
+    }
+    
+    .blog-contain-text p{
+        font-size: 0.8em;
+        margin: 20px 0;
+    }
+    .blog-img-text-2 ,.blog-img-text-3{
+        display: none;
+    }
+    
+    
+    
+    /*footerrrr*/
+    
+    footer{
+        padding: 50px 20px 10px 40px;
+    }
+    
+    .navigation h5,.servicee h5,.contact h5{
+        font-size: 1.1em;
+        margin: 40px 0;
+    }
+
+
+    footer p{
+        font-size: 0.9em;
+    }
+
+    .footer-div p{
+        margin: 30px 0;
+    }
+
+    .footer-div{
+        width: 70%;
+    } 
+
+    .gridd{
+        display: grid;
+        grid-template-columns: repeat(4 ,1fr);
+    }
+
+    .footer-div-text{
+        grid-column: 1/5;
+    }
+
+    .navigation{
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
+   
+
+    .contact{
+        grid-column: 1/5;
+        grid-row: 3;
+    }
+
+    
+    .navigation p,.servicee p,.contact p,.contact,.copyright{
+        margin: 14px 0;
+        
+    }
+    
+    .contact h4{
+        font-size: 1.4em;
+    }
+    
+    .copyright p{
+        margin-top: 50px;
+        font-size: 0.7em;
+        width: 100%;
+        text-align: unset;
+    }    
+    
+
+
+    
+}
+
+
+

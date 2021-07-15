@@ -1,0 +1,420 @@
+@media screen and  (min-width:990px){
+
+
+/*reset*/
+body,p,a{
+    font-size: 20px;
+}
+
+/*base style*/
+.button,.basicplan-button{
+    font-size: 1.1em;
+
+}
+
+a{
+    color: black;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+     display: inline;
+     margin-left: 6px;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+.menu-flex{
+    display: none;
+}
+
+.exit-div{
+    display: flex;
+    margin-top: 10px;
+}
+
+.exit-div .exit{
+    margin-left: 8px;
+}
+
+.star-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -6px;
+    padding: 25px 20px;
+    font-size: 0.9em;
+    box-shadow: 9px 5px 0.6;
+}
+
+.star-nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.star-nav-logo h2{
+    margin-left: -2em;
+}
+
+li{
+    color: black;
+}
+
+ul .button{
+    padding: 9px 12px ;
+    font-size: 0.9em;
+    margin-left: 30px;
+}
+    /*homeeee*/
+    
+    #home{
+        padding-top: 140px;
+        background-color: #FFDDB5;
+    }
+    
+    .welcome{
+        padding: 40px 0px 0px 40px;
+    }
+    
+    .welcome-text{
+        width: 70%;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    .welcome-text h6{
+        margin-bottom: 0;
+    }
+    
+    .welcome-text h3 ,.welcome-text p,.welcome-text a{
+        margin-top: 20px;
+    }
+    
+    .welcome-text p{
+        margin-top: 20px;
+    }
+    
+    .welcome-img img{
+        display: unset;
+        margin-bottom: -5px;
+        margin-top: -30px;
+    }
+
+    .welcome{
+        display: flex;
+    }
+    
+    
+    
+    /*serviceeee*/
+    #service{
+        max-width: 1000px;
+        width: 90%;
+        margin: 30px auto;
+        padding: 70px 0;
+    }
+
+    .service-text{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        
+    }
+
+    .service-text h3{
+        width: 50%;
+        font-size: 2em;
+    }
+    
+    .service-text p{
+        margin-top: 25px;
+        width: 50%;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    .service{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        margin: 30px 0;
+    }
+    
+    .service-grid-item{
+        padding: 25px;
+        border: 0.9px solid #E3E3E3;
+    }
+    
+    .service-grid-item img{
+        margin-bottom: 0;
+    }
+    
+    .service-grid-item h3{
+        margin-top: 20px;
+    }
+    
+    .service-grid-item p{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .grid-button {
+        margin-top: 25px;
+    }
+    
+    /*philoosophyy*/
+
+
+   .ourp{
+       display: flex;
+   }   
+   
+    .ourp img{
+        width: 100%;
+    }
+    
+    .ourp-text{
+        padding: 50px 10px;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .ourp-text h3{
+        margin-bottom: 0;
+        font-size: 2em;
+        font-weight: lighter;
+    
+    }
+    
+    .ourp-text p{
+        font-size: 0.9em;
+        margin-top: 50px;
+        color: var(--secondary);
+    }
+    
+
+
+
+
+
+
+    /*affordablee*/
+
+       
+    .affordable-text{
+        line-height: 1.5em;
+        text-align: center;
+        padding: 70px 40px 250px 40px;
+        margin-bottom:370px;
+    }
+    
+    .affordable-text h4{
+        font-size: 1.9em;
+        font-weight: bold;
+        margin-bottom: -40px;
+    }
+    
+    .affordable-text p{
+        font-size: 1em;
+        width: 55%;
+        margin: 80px auto;
+
+    }
+    
+
+    
+    .basicplan-absolute{
+        left: 50px;
+        top: 290px;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        gap: 15px;
+    }
+    .basicplan-text{
+        font-size: 0.8em;
+        width: 80%;
+    }
+    
+    .basicplan-text h4{
+        border-radius: 15px;
+        width: 50%;
+    }
+    
+    .basicplan-text h2,.basicplan-text p{
+        font-size: 1em;
+    }
+
+
+
+
+
+    /*featreeee*/
+
+
+     
+    .feat{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .a{
+        font-size: 0.9em;
+    }
+    
+ 
+    .feat-text{
+        width: 50%;
+    }
+    
+
+    .feat-img{
+        width: 50%;
+    }
+    
+    
+    .a a{
+        font-size: 0.8em;
+        width: 80%;
+        margin: 0 10px;
+        padding: 8px 0;
+    }
+
+
+
+
+    /*backgrounddd*/
+    
+    .background-img{
+        padding: 30px -30px 30px 160px;
+    }
+    
+    
+    .background-img-text{
+        padding: 80px;
+        width: 80%;
+        margin-left:180px ;
+
+    }
+
+    .background-img-text p{
+        font-size: 1em;
+    }
+
+    .background-img-text h3{
+        font-size: 1.5em;
+    }
+
+
+
+    /*bloggggg*/
+
+    .blog-text h3{
+        text-align: center;
+        font-size: 2em;
+        margin: auto;
+    }
+    
+    .blog-contain{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        width: 95%;
+        margin:40px auto;
+
+    }
+    
+    .blog-contain-text,.blog-img-text-2,.blog-img-text-3{
+        margin: 20px 0;
+    }
+    
+    .blog-contain-text h3,.blog-img-text-2 h3,.blog-img-text-3 h3{
+        font-size: 0.7em;
+        text-decoration: underline;
+    }
+    
+    .blog-contain-text h3:hover,.blog-img-text-2 h3:hover,.blog-img-text-3 h3:hover{
+        color: #FF9100;
+        cursor: pointer;
+    }
+
+
+
+    .blog-contain-text p,.blog-img-text-2 p,.blog-img-text-3 p{
+        font-size: 0.8em;
+        margin: 20px 0;
+    }
+    .blog-img-text-3{
+        display: unset;
+    }
+
+
+    
+
+    /*footttt*/
+    footer{
+    background-color: black;
+    color: var(--secondary);
+    padding: 50px 20px 10px 35px;
+}
+
+
+.navigation h5,.servicee h5,.contact h5{
+    font-size: 1em;
+    margin: 0;
+}
+
+
+footer p{
+    font-size: 0.6em;
+}
+
+.footer-div p{
+    margin: 20px 0;
+}
+
+.footer-div{
+    width: 100%;
+    margin: 10px auto;
+} 
+
+.gridd{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 20px;
+}
+
+.footer-div-text{
+    grid-column: 1/2;
+}
+
+.navigation{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.servicee{
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+.contact{
+    grid-column: 4/5;
+    grid-row: 1;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1em;
+}
+
+    
+}

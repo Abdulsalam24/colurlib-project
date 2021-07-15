@@ -1,0 +1,407 @@
+/*laptopppp (770px)*/
+@media screen and (min-width:770px){
+    /*reset*/
+    body,p,a{
+        font-size: 19px;
+    }
+    
+    /*base style*/
+    .button,.basicplan-button{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1.3em;
+    }   
+
+    .nav-1 img{
+        width: 16%;
+    }
+    
+    .exit-div{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .exit-div .exit{
+        margin-left: 8px;
+    }
+    
+    .menu-flex{
+        display: flex;
+        justify-content: space-between;
+        background-color: #4C4C4C;
+        padding: 10px 0;
+    }
+    
+    .menu{
+        display: flex;
+        background-color: black;
+        padding: 10px;
+        
+    }
+    
+    .menu-nav h4,.logo-menu{
+        color: white;
+    }
+    
+    
+    .logo-menu div{
+        background-color: white;
+        margin: 4px 8px;
+        width: 20px;
+        padding: 1px 0;
+    }
+    
+    
+    /*HOMEEEE*/
+    
+    #home{
+        padding-top: 140px;
+        background-color: #FFDDB5;
+    }
+    
+    .welcome{
+        padding: 40px 0px 0px 10px;
+    }
+    
+    .welcome-text{
+        width: 100%;
+        margin: auto;
+    }
+
+    
+    .welcome-text h6{
+        margin-bottom: 0;
+    }
+    
+    .welcome-text h3 ,.welcome-text p,.welcome-text a{
+        margin-top: 20px;
+    }
+    
+    .welcome-text p{
+        margin-top: 20px;
+    }
+    
+    .welcome-img img{
+        display: unset;
+        margin-bottom: -5px;
+        margin-top: -30px;
+        animation-name: slide;
+        animation-duration: 0.9s;
+        animation-timing-function: ease-out;
+    
+    }
+
+    .welcome{
+        display: flex;
+    }
+
+
+    @keyframes slide{
+        from{
+            transform: translateX(430px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+
+
+
+    
+    
+    
+    
+    /*SERVICEEEE*/
+    #service{
+        max-width: 700px;
+        width: 90%;
+        margin: 30px auto;
+        padding: 70px 0;
+    }
+
+    .service-text{
+        display: flex;
+        justify-content:flex-end;
+        
+    }
+
+    .service-text h3{
+        width: 60%;
+        font-size: 2.5em;
+    }
+    
+    .service-text p{
+        margin-top: 25px;
+        width: 45%;
+        margin: auto;
+
+    }
+    
+    .service{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin: 30px 0;
+    }
+    
+    .service-grid-item{
+        padding: 25px;
+        border: 0.9px solid #E3E3E3;
+    }
+    
+    .service-grid-item img{
+        margin-bottom: 0;
+    }
+    
+    .service-grid-item h3{
+        margin-top: 20px;
+    }
+    
+    .service-grid-item p{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .grid-button {
+        margin-top: 25px;
+    }
+    
+    
+    /*philosopyyyy*/
+    
+   
+    .ourp img{
+        width: 100%;
+    }
+    
+    .ourp-text{
+        padding: 50px 10px;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .ourp-text h3{
+        margin-bottom: 0;
+        font-size: 2.3em;
+    
+    }
+    
+    .ourp-text p{
+        font-size: 0.9em;
+        margin-top: 50px;
+        color: var(--secondary);
+    }
+    
+    
+    /*Affordableeee*/
+   
+    .affordable-text{
+        line-height: 1.7em;
+        text-align: center;
+        margin-bottom:1000px;
+    }
+    
+    .affordable-text h4{
+        font-size: 2.3em;
+        margin-bottom: -40px;
+    }
+    
+    .affordable-text p{
+        font-size: 1.1em;
+        width: 74%;
+        margin: 80px auto;
+
+    }
+    
+    
+    
+    hr{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .basicplan-absolute{
+        left: 35px;
+        top: 330px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        gap: 20px;
+    }
+      .basicplan{
+        width: 100%;
+       
+    
+    }
+    
+    .basicplan-text{
+        font-size: 1em;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .basicplan-text h4{
+        padding: 10px 2px;
+        border: 2px solid gray;
+        border-radius: 15px;
+        width: 40%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .basicplan-text h2,.basicplan-text p{
+        font-size: 1em;
+        margin-top: 30px;
+    }
+    
+    .basicplan-text h5{
+        margin-top: 15px;
+    }
+    
+    .basicplan-text a{
+        margin-top: 30px;
+    }
+    
+    /*feattt*/
+    
+    .feat{
+        width:90%;
+        margin: auto;
+        font-size: 1.6em;
+    }
+
+    
+    .feat-text{
+        width: 75%;
+        margin: 10px;
+    }
+    
+    .a{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+    
+    .a a{
+        font-size: 0.6em;
+        width: 60%;
+        margin: 0 10px;
+        padding: 8px 0;
+    }
+    
+    .feat-img{
+        margin: 50px 20px;
+    }
+    
+    
+    /*backgroundddd*/
+    
+    
+    .background-img{
+        padding: 80px 50px 80px 80px;
+    }
+    
+    
+    .background-img-text{
+        padding: 50px;
+    }
+
+    .background-img-text p{
+        font-size: 1.3em;
+    }
+
+    
+    /*blogggg*/
+    .blog-text h3{
+        text-align: center;
+        font-size: 2em;
+        margin: auto;
+    }
+    
+    .blog-contain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        width: 85%;
+        margin:40px auto;
+
+    }
+    
+    .blog-contain-text,.blog-img-text-2{
+        margin: 20px 0;
+    }
+    
+    .blog-contain-text h3,.blog-img-text-2 h3{
+        font-size: 1em;
+        text-decoration: underline;
+    }
+    
+    .blog-contain-text p,.blog-img-text-2 p{
+        font-size: 0.8em;
+        margin: 20px 0;
+    }
+    .blog-img-text-2{
+        display: unset;
+    }
+    
+    
+    /*footerrrr*/    
+    footer{
+        background-color: black;
+        color: var(--secondary);
+        padding: 50px 20px 10px 15px;
+    }
+
+    
+    .navigation h5,.servicee h5,.contact h5{
+        font-size: 1.1em;
+        margin: 0;
+    }
+
+
+    footer p{
+        font-size: 1em;
+    }
+
+    .footer-div p{
+        margin: 30px 0;
+    }
+
+    .footer-div{
+        width: 90%;
+        margin: 10px auto;
+    } 
+
+    .gridd{
+        display: grid;
+        grid-template-columns: repeat(4 ,1fr);
+        gap: 10px;
+    }
+
+    .footer-div-text{
+        grid-column: 1/3;
+    }
+
+    .navigation{
+        grid-column: 4/5;
+        grid-row: 1;
+    }
+
+    .servicee{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+
+    .contact{
+        grid-column: 4/5;
+        grid-row: 2;
+    }
+
+    .copyright{
+        text-align: center;
+        font-size: 1.3em;
+    }
+  
+}
