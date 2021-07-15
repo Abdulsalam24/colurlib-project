@@ -66,6 +66,15 @@ li{
     color: black;
 }
 
+ul li a{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color:#FF9100;
+}
+
 ul .button{
     padding: 9px 12px ;
     font-size: 0.9em;
