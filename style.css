@@ -139,33 +139,66 @@ nav{
     background-color: white;
 }
 
-
-
 .menu-flex{
     display: flex;
     justify-content: space-between;
     background-color:#4C4C4C;
-    padding: 10px 0;
+    /*for the menu change javascript*/
+    padding: 10px 0 10px 0;
 }
 
 .menu{
     display: flex;
-    background-color: black;
+    background-color: #222222;
     padding: 10px;
+    border-radius: 13px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .menu-nav h4,.logo-menu{
     color: white;
 }
 
-
 .logo-menu div{
     background-color: white;
-    margin: 4px 8px;
-    width: 20px;
+    margin: 2px 6px;
+    width: 17px;
     padding: 1px 0;
 
 }
+
+
+
+
+.nav-sidebar{
+    z-index: 1000;
+    background-color: #4C4C4C;
+    height: 2px;
+    transition: 1s;
+}
+
+.nav-sidebar ul{
+    display: none;
+    overflow-y: hidden;
+    list-style-type: none;
+   
+}
+
+
+.nav-sidebar ul li{
+    display: block;
+}
+
+
+.nav-sidebar ul li a{
+    text-decoration: none;
+    line-height: 35px;
+    padding: 0 17px;
+    color: white;
+    transition: 3s;
+}
+
 
 
 /*HOMEEEE*/
@@ -290,6 +323,7 @@ nav{
 }
 
 .service-grid-item h3{
+    color: black;
     margin-top: 20px;
 }
 
@@ -315,8 +349,11 @@ span{
     margin-top: 25px;
     cursor: pointer;
     color: black;
-}
+    transition: ease-in-out;
+    transition-duration:300ms;
 
+
+}
 
 .grid-button:hover{
     color: var(--primary);
