@@ -175,14 +175,13 @@ nav{
     z-index: 1000;
     background-color: #4C4C4C;
     height: 2px;
-    transition: 1s;
+    transition: 2s;
 }
 
 .nav-sidebar ul{
     display: none;
     overflow-y: hidden;
     list-style-type: none;
-   
 }
 
 
@@ -196,7 +195,6 @@ nav{
     line-height: 35px;
     padding: 0 17px;
     color: white;
-    transition: 3s;
 }
 
 
@@ -619,29 +617,3 @@ footer{
 .copyright span{
     color: var(--primary);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
